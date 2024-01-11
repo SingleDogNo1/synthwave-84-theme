@@ -1,0 +1,8 @@
+.monaco-editor .minimap.slider-mouseover .minimap-slider {
+  background: #ace;
+}
+
+.monaco-editor .minimap.slider-mouseover .minimap-slider.active,
+.monaco-editor .minimap.slider-mouseover:hover .minimap-slider {
+  opacity: 0.62;
+}

@@ -1,0 +1,15 @@
+.panel.integrated-terminal,
+.panel.integrated-terminal * {
+  background: transparent !important;
+}
+
+.panel.integrated-terminal .xterm-cursor,
+.xterm-cursor-block {
+  background: #eb94ab !important;
+}
+
+.panel .title .title-actions * {
+  background-color: rgba(35, 37, 48, 0) !important;
+  color: rgb(240, 240, 240) !important;
+  border-color: rgb(255, 255, 255) !important;
+}
