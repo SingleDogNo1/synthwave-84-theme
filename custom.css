@@ -93,11 +93,24 @@ body {
     border: none !important;
 }
 
-
 .monaco-editor .ced-1-TextEditorDecorationType38-4a6b5fd6-4.ced-1-TextEditorDecorationType38-4::after {
     color: rgba(255, 255, 255, 0.35) !important;
 }
 
 .monaco-editor .ced-1-TextEditorDecorationType42--538f0f43-4.ced-1-TextEditorDecorationType42-4::after {
     color: rgba(153, 153, 153, 0.35) !important;
+}
+
+.monaco-editor .sticky-widget  {
+    backdrop-filter: blur(5px);
+    background-color: rgba(110, 110, 110, 0.4);
+}
+
+.monaco-list .monaco-scrollable-element .monaco-tree-sticky-container .monaco-tree-sticky-row.monaco-list-row {
+    background-color: rgba(110, 110, 110, 0.8) !important;
+    backdrop-filter: blur(5px);
+}
+
+.monaco-list .monaco-scrollable-element .monaco-tree-sticky-container {
+    background-color: transparent !important;
 }
